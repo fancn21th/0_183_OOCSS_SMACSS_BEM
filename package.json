@@ -1,0 +1,9 @@
+{
+  "name": "WN30-OO-SMA-BEM",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "live-server dist"
+  }
+}
