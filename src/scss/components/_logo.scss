@@ -1,0 +1,15 @@
+.c-logo {
+  &-origin {
+    img {
+      height: 1.5625rem; // 25px
+    }
+  }
+  &-mini {
+    img {
+      height: 1.5625rem; // 25px
+    }
+  }
+  &-open-in-app {
+    font-size: $font-sm;
+  }
+}
