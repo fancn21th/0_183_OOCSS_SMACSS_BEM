@@ -1,5 +1,12 @@
 .c-resume {
+  // layout pos
   height: 2rem;
+  // box
+  padding: 0 1rem;
+  // font text
   font-size: $font-sm;
   line-height: 2rem;
+  // skin
+  border: 1px solid $primary-color;
+  border-radius: 15px;
 }

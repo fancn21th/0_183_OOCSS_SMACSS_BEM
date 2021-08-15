@@ -3,8 +3,9 @@
 @import "abstracts/mixins";
 @import "abstracts/animations";
 
-// globals
+// base
 @import "base/globals";
+@import "base/spacing";
 
 // * {
 //   border: 1px dashed red;
