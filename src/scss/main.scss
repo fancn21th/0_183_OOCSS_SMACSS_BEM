@@ -1,8 +1,10 @@
-@import "variables";
-@import "mixins";
-@import "animations";
+// abstracts
+@import "abstracts/variables";
+@import "abstracts/mixins";
+@import "abstracts/animations";
 
-@import "globals";
+// globals
+@import "base/globals";
 
 // * {
 //   border: 1px dashed red;
@@ -10,6 +12,7 @@
 
 // layout
 @import "layouts/header";
+
 // component
 @import "components/logo";
 @import "components/top.menu";
