@@ -35,7 +35,3 @@
 ```
 
 ## CSS Rules
-
-- 不要用缩写形式
-  - good
-  - bad
