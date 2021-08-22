@@ -6,6 +6,8 @@
   // font text
   font-size: $font-sm;
   line-height: toRem(32);
+  font-weight: 400;
+  text-align: center;
   // skin
   border: 1px solid $primary-color;
   border-radius: toRem(15);

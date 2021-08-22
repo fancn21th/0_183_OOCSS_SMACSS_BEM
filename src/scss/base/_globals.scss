@@ -6,6 +6,8 @@ html {
 *,
 *::before,
 *::after {
+  margin: 0;
+  padding: 0;
   box-sizing: inherit;
 }
 
@@ -29,8 +31,6 @@ a:hover {
 }
 
 ul {
-  margin: 0;
-  padding: 0;
   text-indent: 0;
   list-style-type: 0;
   list-style: none;

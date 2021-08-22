@@ -1,7 +1,8 @@
 //  color
 $primary-color: black;
-$secondary-color: #f5f5f5;
-$text-color: rgba(117, 117, 117, 1);
+$secondary-color: rgba(117, 117, 117, 1);
+$light-bg-color: rgba(242, 242, 242, 1);
+$text-color: $secondary-color;
 
 // font size
 $font-xs: toRem(13);

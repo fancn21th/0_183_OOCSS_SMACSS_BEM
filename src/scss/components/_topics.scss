@@ -1,11 +1,60 @@
 .c-topics {
+  position: relative;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: toRem(24);
+  margin-left: 0;
+  flex-wrap: wrap;
+
+  @include breakpoint-up(medium) {
+    flex-wrap: nowrap;
+    // TODO: mixed with l-header margin-bottom
+    margin-top: toRem(32);
+  }
+
   &__title {
+    flex-basis: 100%;
+    margin-bottom: toRem(16);
+
     font-size: $font-xs;
     text-transform: uppercase;
     letter-spacing: toRem(1.001);
+
+    @include breakpoint-up(medium) {
+      flex-basis: auto;
+      margin-bottom: 0;
+    }
+  }
+
+  &__content {
+    overflow: scroll;
+
+    // hide the default scrollbar
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  &__item {
+    background-color: $light-bg-color;
+    border-color: $light-bg-color;
+    margin-right: toRem(8);
   }
 
   &__more {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    height: toRem(32);
+    padding-left: toRem(20);
+
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0) 0px,
+      rgb(255, 255, 255) 50%
+    );
+
     img {
       height: toRem(25);
     }

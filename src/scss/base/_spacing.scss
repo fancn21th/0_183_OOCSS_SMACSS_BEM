@@ -14,165 +14,170 @@ a,t,r,b,l,h,v = all,top,right,bottom,left,
 horizontal,vertical
 s,m,l,n = small(5px),medium(10px),large(20px),none(0px)
 */
+$mp-none-unit: 0px;
+$mp-small-unit: 5px;
+$mp-medium-unit: 10px;
+$mp-large-unit: 20px;
+
 .ptn,
 .pvn,
 .pan {
-  padding-top: 0px !important;
+  padding-top: $mp-none-unit !important;
 }
 .pts,
 .pvs,
 .pas {
-  padding-top: 5px !important;
+  padding-top: $mp-large-unit !important;
 }
 .ptm,
 .pvm,
 .pam {
-  padding-top: 10px !important;
+  padding-top: $mp-medium-unit !important;
 }
 .ptl,
 .pvl,
 .pal {
-  padding-top: 20px !important;
+  padding-top: $mp-large-unit !important;
 }
 .prn,
 .phn,
 .pan {
-  padding-right: 0px !important;
+  padding-right: $mp-none-unit !important;
 }
 .prs,
 .phs,
 .pas {
-  padding-right: 5px !important;
+  padding-right: $mp-large-unit !important;
 }
 .prm,
 .phm,
 .pam {
-  padding-right: 10px !important;
+  padding-right: $mp-medium-unit !important;
 }
 .prl,
 .phl,
 .pal {
-  padding-right: 20px !important;
+  padding-right: $mp-large-unit !important;
 }
 .pbn,
 .pvn,
 .pan {
-  padding-bottom: 0px !important;
+  padding-bottom: $mp-none-unit !important;
 }
 .pbs,
 .pvs,
 .pas {
-  padding-bottom: 5px !important;
+  padding-bottom: $mp-large-unit !important;
 }
 .pbm,
 .pvm,
 .pam {
-  padding-bottom: 10px !important;
+  padding-bottom: $mp-medium-unit !important;
 }
 .pbl,
 .pvl,
 .pal {
-  padding-bottom: 20px !important;
+  padding-bottom: $mp-large-unit !important;
 }
 .pln,
 .phn,
 .pan {
-  padding-left: 0px !important;
+  padding-left: $mp-none-unit !important;
 }
 .pls,
 .phs,
 .pas {
-  padding-left: 5px !important;
+  padding-left: $mp-large-unit !important;
 }
 .plm,
 .phm,
 .pam {
-  padding-left: 10px !important;
+  padding-left: $mp-medium-unit !important;
 }
 .pll,
 .phl,
 .pal {
-  padding-left: 20px !important;
+  padding-left: $mp-large-unit !important;
 }
 .mtn,
 .mvn,
 .man {
-  margin-top: 0px !important;
+  margin-top: $mp-none-unit !important;
 }
 .mts,
 .mvs,
 .mas {
-  margin-top: 5px !important;
+  margin-top: $mp-large-unit !important;
 }
 .mtm,
 .mvm,
 .mam {
-  margin-top: 10px !important;
+  margin-top: $mp-medium-unit !important;
 }
 .mtl,
 .mvl,
 .mal {
-  margin-top: 20px !important;
+  margin-top: $mp-large-unit !important;
 }
 .mrn,
 .mhn,
 .man {
-  margin-right: 0px !important;
+  margin-right: $mp-none-unit !important;
 }
 .mrs,
 .mhs,
 .mas {
-  margin-right: 5px !important;
+  margin-right: $mp-large-unit !important;
 }
 .mrm,
 .mhm,
 .mam {
-  margin-right: 10px !important;
+  margin-right: $mp-medium-unit !important;
 }
 .mrl,
 .mhl,
 .mal {
-  margin-right: 20px !important;
+  margin-right: $mp-large-unit !important;
 }
 .mbn,
 .mvn,
 .man {
-  margin-bottom: 0px !important;
+  margin-bottom: $mp-none-unit !important;
 }
 .mbs,
 .mvs,
 .mas {
-  margin-bottom: 5px !important;
+  margin-bottom: $mp-large-unit !important;
 }
 .mbm,
 .mvm,
 .mam {
-  margin-bottom: 10px !important;
+  margin-bottom: $mp-medium-unit !important;
 }
 .mbl,
 .mvl,
 .mal {
-  margin-bottom: 20px !important;
+  margin-bottom: $mp-large-unit !important;
 }
 .mln,
 .mhn,
 .man {
-  margin-left: 0px !important;
+  margin-left: $mp-none-unit !important;
 }
 .mls,
 .mhs,
 .mas {
-  margin-left: 5px !important;
+  margin-left: $mp-large-unit !important;
 }
 .mlm,
 .mhm,
 .mam {
-  margin-left: 10px !important;
+  margin-left: $mp-medium-unit !important;
 }
 .mll,
 .mhl,
 .mal {
-  margin-left: 20px !important;
+  margin-left: $mp-large-unit !important;
 }
 .mra,
 .mha {
