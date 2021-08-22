@@ -9,7 +9,6 @@
 @import "base/flex";
 @import "base/spacing";
 @import "base/responsive";
-@import "base/container";
 
 // debug
 // * {
@@ -17,9 +16,11 @@
 // }
 
 // layout
+@import "layouts/container";
 @import "layouts/header";
 
 // component
+@import "components/nav";
 @import "components/logo";
 @import "components/top.menu";
 @import "components/resume";

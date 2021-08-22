@@ -1,0 +1,11 @@
+.l-container {
+  @include breakpoint-up(xlarge) {
+    margin: 0 toRem(64);
+  }
+  @include breakpoint-between(small, xlarge) {
+    margin: 0 toRem(48);
+  }
+  @include breakpoint-down(small) {
+    margin: 0 toRem(24);
+  }
+}
