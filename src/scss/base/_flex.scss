@@ -1,6 +1,10 @@
 .flex {
   display: flex;
 
+  &-x {
+    flex-direction: row;
+  }
+
   &-jc-sb {
     @extend .flex;
     justify-content: space-between;
