@@ -1,25 +1,36 @@
-// 640px, 1024px, 1400px
+// refer to https://getbootstrap.com/docs/5.1/layout/grid/
+
 $breakpoints-up: (
-  "medium": "40em",
-  "large": "64em",
-  "xlarge": "87.5em",
+  "small": toRem(540),
+  "medium": toRem(720),
+  "large": toRem(960),
+  "xlarge": toRem(1200),
 );
 
-// 639px, 1023px, 1399px
 $breakpoints-down: (
-  "small": "39.9375em",
-  "medium": "63.9375em",
-  "large": "87.4375em",
+  "small": toRem(539),
+  "medium": toRem(719),
+  "large": toRem(959),
+  "xlarge": toRem(1199),
 );
 
 @mixin breakpoint-up($size) {
+  // min-width <= (given size)
   @media (min-width: map-get($breakpoints-up, $size)) {
     @content;
   }
 }
 
 @mixin breakpoint-down($size) {
+  // (given size) < max-width
   @media (max-width: map-get($breakpoints-down, $size)) {
+    @content;
+  }
+}
+
+@mixin breakpoint-between($min-size, $max-size) {
+  // @media (min-width <= width < max-width )
+  @media (min-width: map-get($breakpoints-up, $min-size)) and (max-width: map-get($breakpoints-down, $max-size)) {
     @content;
   }
 }
