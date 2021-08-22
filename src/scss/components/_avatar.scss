@@ -1,6 +1,6 @@
 .c-avatar {
   & img {
     border-radius: 50%;
-    height: 2rem; // 32px;
+    height: toRem(32);
   }
 }

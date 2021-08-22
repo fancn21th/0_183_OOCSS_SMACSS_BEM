@@ -1,12 +1,12 @@
 .c-logo {
   &-origin {
     img {
-      height: 1.5625rem; // 25px
+      height: toRem(25);
     }
   }
   &-mini {
     img {
-      height: 1.5625rem; // 25px
+      height: toRem(25);
     }
   }
   &-open-in-app {

@@ -1,7 +1,7 @@
 .c-top-menu {
   &__item {
     & img {
-      height: 1.5625rem; // 25px
+      height: toRem(25);
     }
   }
 }
