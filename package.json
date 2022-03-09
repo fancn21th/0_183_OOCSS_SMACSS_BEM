@@ -5,5 +5,8 @@
   "license": "MIT",
   "scripts": {
     "start": "live-server dist"
+  },
+  "devDependencies": {
+    "live-server": "1.2.1"
   }
 }
